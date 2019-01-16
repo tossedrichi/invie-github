@@ -10,13 +10,31 @@
       img{
         max-width:100%;
         vertical-align:top;
+        /* display:none; */
+      }
+
+      img#responsive{
+        display:none;
+      }
+
+      @media screen and (max-width: 768){
+        img#responsive{
+          display:block;
+        }
+
       }
     </style>
   </head>
   <body>
+
+<img src="./img/invie-responsive.png" alt="" id="responsive">
 <img src="./img/header.jpg" alt="">
 <img src="./img/hero.jpg" alt="">
-<img src="./img/acustica.webp" alt="">
+<img src="./img/acustica.webp" >
 <img src="./img/clasica.webp" alt="">
+
+
+
+
   </body>
 </html>
